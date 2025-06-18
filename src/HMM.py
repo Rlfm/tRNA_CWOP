@@ -186,7 +186,7 @@ if __name__ == "__main__":
     std_html = ""
     bias_html = ""
 
-    amino_acids = list(aa_dict.values())[:3]
+    amino_acids = list(aa_dict.values())
     inv_aa_dict = {v:k for k,v in aa_dict.items()}
 
     for aa in amino_acids:
@@ -226,7 +226,7 @@ if __name__ == "__main__":
     with open(f"output/delta_aa.html","w") as f:
         f.write(delta_std_bias_html)
 
-    raise Exception("Not going full model")
+    print("AA success")
     # ---- FULL MODEL ----
 
     all_std = HMM("data/cds_from_genomic.fna",aa=False,bias=False)
@@ -249,3 +249,5 @@ if __name__ == "__main__":
 
     with open(f"output/delta_full.html","w") as f:
         f.write(full_delta_std_bias_html)
+    
+    print("FULL success")
