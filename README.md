@@ -5,5 +5,5 @@ tRNA-based Codon Wobble Overlap Prediction
 
 **References**  
 [1] Murphy, F., Ramakrishnan, V. Structure of a purine-purine wobble base pair in the decoding center of the ribosome. Nat Struct Mol Biol 11, 1251–1252 (2004). https://doi.org/10.1038/nsmb866  
-[2] Chan, P.P., Lowe, T.M. (2019). tRNAscan-SE: Searching for tRNA Genes in Genomic Sequences. In: Kollmar, M. (eds) Gene Prediction. Methods in Molecular Biology, vol 1962. Humana, New York, NY. https://doi.org/10.1007/978-1-4939-9173-0_1
+[2] Chan, P.P., Lowe, T.M. (2019). tRNAscan-SE: Searching for tRNA Genes in Genomic Sequences. In: Kollmar, M. (eds) Gene Prediction. Methods in Molecular Biology, vol 1962. Humana, New York, NY. https://doi.org/10.1007/978-1-4939-9173-0_1   
 [3] Alexander C. Roth, Decoding properties of tRNA leave a detectable signal in codon usage bias, Bioinformatics, Volume 28, Issue 18, September 2012, Pages i340–i348, https://doi.org/10.1093/bioinformatics/bts403
